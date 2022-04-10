@@ -534,9 +534,10 @@ header .icons #menu-bars{
 }
 
 .footer .box-container{
+    background-color: #3a3a3a;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap:1.5em;
 }
 
 .footer .box-container .box h3{
@@ -592,34 +593,6 @@ header .icons #menu-bars{
     top:-110%;
     opacity:0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -701,3 +674,7 @@ header .icons #menu-bars{
 
 }
 
+.dark {
+    background-color: #3a3a3a;
+    padding: 50px 0px;
+}
