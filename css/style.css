@@ -24,9 +24,7 @@ html{
     scroll-behavior: smooth;
 }
 
-section{
-    padding:2rem 9%;
-}
+
 
 section:nth-child(even){
     background:#eee;
@@ -50,6 +48,7 @@ section:nth-child(even){
 .btn{
     margin-top: 1rem;
     display: inline-block;
+    justify-content: center;
     font-size: 1.7rem;
     color:#fff;
     background: var(--black);
@@ -534,8 +533,9 @@ header .icons #menu-bars{
 }
 
 .footer .box-container{
-    background-color: #3a3a3a;
-    display: grid;
+    background-color: #192a56;
+    display: flex;
+    justify-content: space-around;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap:1.5em;
 }
@@ -550,7 +550,7 @@ header .icons #menu-bars{
     display: block;
     padding:.5rem 0;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:#fff;
 }
 
 .footer .box-container .box a:hover{
@@ -611,9 +611,7 @@ header .icons #menu-bars{
         padding:1rem 2rem;
     }
 
-    section{
-        padding:2rem;
-    }
+
 
 
 }
@@ -677,4 +675,55 @@ header .icons #menu-bars{
 .dark {
     background-color: #3a3a3a;
     padding: 50px 0px;
+}
+
+.boton{
+    margin-top: 1rem;
+    display: inline-block;
+    justify-content: center;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:.8rem 3rem;
+}
+
+
+
+
+.mision {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.grisio{
+    margin-top: 1rem;
+    display: inline-block;
+    justify-content: center;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--black);
+    border-radius: .5rem;
+    padding: 2px;
+}
+
+.contacs {
+    display: flex;
+    height: 100px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; 
+    flex-wrap: wrap;
+}
+
+
+.contacs .title{
+    text-align: center;
+    color:var(--black);
+    
 }
