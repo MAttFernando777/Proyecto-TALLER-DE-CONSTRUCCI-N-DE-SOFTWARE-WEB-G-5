@@ -842,11 +842,13 @@ header .icons #menu-bars{
 .contacs {
     display: flex;
     height: 100px;
+    column-count:4;
+   column-gap:20px;
+   column-rule:4px;
     background-color: white;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center; 
-    flex-wrap: wrap;
 }
 
 
