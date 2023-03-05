@@ -9,5 +9,6 @@
 | --------- | ------- |
 | Arango Quispe | Esmeralda |
 | Calderon Herrera | Miguel Angel |
+| Huallpartupa Gallegos | Wilfredo |
 | Porras Quispe | Marco Aurelio |
 | Ytusaca Quispe | Saúl Fernando |
