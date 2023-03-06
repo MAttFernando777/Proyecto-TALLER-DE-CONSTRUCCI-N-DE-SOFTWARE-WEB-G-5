@@ -8,7 +8,7 @@
 | Apellidos | Nombres |
 | --------- | ------- |
 | Arango Quispe | Esmeralda |
-| Calderon Herrera | Miguel Angel |
+| Abanto Salas | Flavia |
 | Huallpartupa Gallegos | Wilfredo |
 | Porras Quispe | Marco Aurelio |
 | Ytusaca Quispe | Saúl Fernando |
